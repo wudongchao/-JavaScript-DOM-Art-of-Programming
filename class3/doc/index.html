@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<div id="div1">123</div>
+	<div class="div2"></div>
+	<p></p>
+
+	<script type="text/javascript">
+		// 3.1 获取元素
+		var div1 = document.getElementById('div1');	
+		var div2 = document.getElementsByClassName('div2')[0];
+		var p = document.getElementsByTagName('p');
+		// 3.1.1 getElementByTagName允许有一个通配符“*”；把所有的元素将在这个函数所返回的数组里。
+		var all = document.getElementsByTagName('*');
+		
+		
+	</script>
+</body>
+</html>
