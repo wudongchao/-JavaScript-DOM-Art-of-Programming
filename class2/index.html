@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 2.1 数组
+		var ken = [];
+		ken[0] = "ringo";
+		ken[1] = "Paul";
+		// 2.1.1 关联数组
+		var len = [];
+		len["name"] = "Join";
+		len["age"] = 23;
+		
+		// 2.2 对象
+		var obj = {};
+		obj["name"] = "Join";
+		obj.age = 23;
+		console.log(obj)
+		
+		// 2.3操作符
+		var a = 1 + 4;
+		var b = 1 + 4 * 5;
+		var c = (1 + 4) * 5;
+
+		var year = 1;
+		year = year + 1; // 也可写作 year++;
+
+		// 2.3.1操作符拼接
+		var message = "i am feeling" + "happy";
+
+		// 2.4 条件语句
+		var con = true;
+		if (con) {
+			var content = "内容";
+		};
+
+		if (1 > 2) {
+			alert('the word has gone mad!')
+		};
+
+		// 2.5 逻辑操作符
+		// && 与
+		if (num >= 5 && num <= 10) {
+			alert("The number is in the right range")
+		};
+		// || 或
+		if (num > 10 || num < 5) {
+			alert("The number is not in the right range")
+		};
+		// ！ 逻辑非
+		if (!(2 > 1)) {
+			alert("All is well with the world")
+		};
+		if (!(num > 10 || num < 5)) {
+			alert("The number is in the right range")
+		}
+
+
+	</script>
+</body>
+</html>

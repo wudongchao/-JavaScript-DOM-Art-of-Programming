@@ -20,7 +20,41 @@
 
 #### JavaScript数据类型
 ###### JavaScript是弱类型（weakly typed）语言。这意味着程序员在任何阶段都可以改变变量的数据类型
+
 ##### JavaScript字符串
 ###### 字符串由零个或者多个字符构成，字符包括（但不限于）字母、数字、标点符号和空格。
 ###### 字符串必须在双引号或者单引号里。如：var mood = 'happy'; var mood = "happy"
-###### 
+###### var mood = "don't ask" ,如果想在上面这条语句中使用单引号，就必须保证字母“n”和“t”之间的单引号能够被当成这个字符串的一部分，这种情况就需要转义。JavaScript用反斜线对字符进行转义：var mood = 'don\’t ask';
+###### 如果是双引号，就必须用反斜线对字符串中的双引号就行转义。var height = "about 5'10\" tall";var height ="about 5'10\"tall"
+
+##### JavaScript 数值
+###### JavaScript允许使用带小数点的树枝，并且允许任意位小数，这样的数称为浮点数（floating- point number）; 
+###### var age = 33; var temperature = -20; var temerature = -20.333;
+
+##### JavaScript布尔值
+###### JavaScript数据类型只有两个可选 true和false。 var sleeoing = true;
+
+#### JavaScript数组
+###### JavaScript数组指用一个变量表示一个值的集合，集合中的每个值都是这个数组的一个元素。
+###### 数组见index.html 2.1
+###### 关联数组见 index.html 2.1.1
+
+#### JavaScript对象
+###### 与数组类似，对象也是使用一个名字表示一组值，对象的每个值都是对象的一个属性。
+###### 对象见index.html 2.2
+
+#### JavaScript操作符
+###### 算术操作符，加减乘除。 “+”，“-”，"✳"，“/”，可用括号分隔。1 + (4 * 5);
+###### 算术操作符见index.html 2.3
+
+#### JavaScript条件语句
+###### JavaScript使用条件语句（conditional statement）来做判断
+###### JavaScript使用条件语句来设置一个条件，只有满足了这一条件才能让更语句块中的语句得到执行。
+###### 条件语句见index.html 2.4
+
+#### JavaScript逻辑操作符
+###### 大于 小于 等于 大于等于 小于等于 ">" "<" "=" ">=" "<="
+###### 或使用 “&&” 和 “||” 来连接，两次比较操作称为逻辑比较（operand）
+###### "逻辑非"操作符，它由一个感叹号"!"单独构成。
+###### 逻辑操作符见index.html 2.5
+###### 字符串、数值和布尔值都是标量
