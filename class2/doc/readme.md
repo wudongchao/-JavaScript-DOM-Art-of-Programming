@@ -57,4 +57,27 @@
 ###### 或使用 “&&” 和 “||” 来连接，两次比较操作称为逻辑比较（operand）
 ###### "逻辑非"操作符，它由一个感叹号"!"单独构成。
 ###### 逻辑操作符见index.html 2.5
-###### 字符串、数值和布尔值都是标量
+
+#### JavaScript循环语句
+###### 循环语句来完成重复性的操作，如果需要多次执行同一个代码块，就必须使用循环语句。
+###### 循环语句见index.html 2.6
+
+#### JavaScript函数
+###### 如果多次使用同一段代码。可以把它们封装成一个函数，函数（function）就是允许在你的代码里随时调用的语句。
+###### function shout () {}; shout();
+###### 函数的真正威力体现在把不同的数据传递给它们，而它们将使用这些数据去完成预定的操作。参数（argument）；
+###### 函数见index.html 2.7
+
+#### JavaScript变量的作用域
+###### 变量的作用域(scope)，全局变量（global variable）和 局部变量（local variable）
+###### 全局变量可以在脚本中的任意位置被引用，全局变量的作用域是整个脚本。
+###### 局部变量只存在于声明它的那个函数的内部，在那个函数的额外部是无法引用它的。局部变量的作用域仅限于某个特定的函数。
+
+#### JavaScript对象
+###### 对象是一种非常重要的数据类型，对象是自包含的数据集合，包含在对象里的数据可以通过两种形式访问————属性（property）和方法（method)。Object.property Object.method()
+###### 内建对象，使用new关键字去初始化一个数组是，其实是在创建一个Array对象的新实例。
+###### var beatles = new Array(); beatles.length访问beatles数组长度。
+###### var num = 7.561; var num = Math.round(num); alert(num);
+###### var current_date = new Date(); Date对象提供了 getDay(),getHours(),getMonth()等一系列方法。
+###### 宿主对象：浏览器。宿主对象包括Form、Image和Element等，获取这些对象的表单，图像和各种表单元素等。
+##### 

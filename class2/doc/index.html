@@ -5,6 +5,7 @@
 </head>
 <body>
 	<script type="text/javascript">
+
 		// 2.1 数组
 		var ken = [];
 		ken[0] = "ringo";
@@ -58,6 +59,35 @@
 			alert("The number is in the right range")
 		}
 
+		// 2.6 循环语句
+		// 2.6.1 while ,只要给定条件是true,花括号中的代码就会反复的执行下去。
+		while (condition) {
+			statements;
+		}
+		// 2.6.2 do while,无论while给定的条件是否是true,do花括号中的代码都会执行一次后，再判断while中的条件
+		do {
+			statements;
+		}while(condition)
+		// 2.6.3 for 循环 
+		for (initial condition;test condition; alter condition) {
+			statements;
+		};
+		for (var count = 1; count < 11; count++) {
+			alert(count);
+		}
+
+		// 2.7函数
+		function name (arguments) {
+			staements;
+		}
+		// 2.7.1 函数返回一个数值、一个字符串、一个数组或一个布尔值。这时候就用到了return语句。
+		function multipl (num1, num2) {
+			var total = num1 * num2;
+			return total;
+		};
+		var endNum =multipl (1, 2);
+
+		
 
 	</script>
 </body>
